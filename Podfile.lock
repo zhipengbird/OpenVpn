@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.6.4)
+  - FlagKit (2.2)
+  - MJRefresh (3.7.5)
+  - MMDB-Swift (0.5.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.1)
+  - ZLCollectionViewFlowLayout (1.4.8)
+
+DEPENDENCIES:
+  - FlagKit
+  - MJRefresh
+  - MMDB-Swift
+  - Moya
+  - RealReachability
+  - RxSwift
+  - SnapKit
+  - SwiftyJSON
+  - ZLCollectionViewFlowLayout
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FlagKit
+    - MJRefresh
+    - MMDB-Swift
+    - Moya
+    - RealReachability
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+    - ZLCollectionViewFlowLayout
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MMDB-Swift: c1089703b65a3d1301fc92ff8f55d4794a569214
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ZLCollectionViewFlowLayout: 6cd506c05d77cb2ac0772f68155e377d50d39f8a
+
+PODFILE CHECKSUM: 13cceecef7d5a26456122cf83d7458ab7ca115d2
+
+COCOAPODS: 1.11.3

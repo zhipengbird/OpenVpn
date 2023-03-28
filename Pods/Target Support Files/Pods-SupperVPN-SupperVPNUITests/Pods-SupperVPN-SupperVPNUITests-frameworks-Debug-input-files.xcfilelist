@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-SupperVPN-SupperVPNUITests/Pods-SupperVPN-SupperVPNUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FlagKit/FlagKit.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MMDB-Swift/MMDB_Swift.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/ZLCollectionViewFlowLayout/ZLCollectionViewFlowLayout.framework
