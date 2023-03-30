@@ -13,7 +13,7 @@ import ZLCollectionViewFlowLayout
 class JXCollectListViewController: JXViewController {
     //MARK: - public properties
     var listViewDidScrollCallback: ((UIScrollView) -> Void)?
-    var contentCellMapper: JXFeedContentCellMapper = JXFeedContentCellMapper()
+    var contentCellMapper: vpnConentCellMapper = vpnConentCellMapper()
     var viewModel: JXFeedListViewModel = JXFeedListViewModel()
     var cellEventHandler: JXFeedCellEventProtocol?
     lazy var layout: UICollectionViewLayout = {

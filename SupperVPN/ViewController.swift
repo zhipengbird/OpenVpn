@@ -28,6 +28,23 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(connectionClicked), for: .touchUpInside)
         return button
     }()
+    lazy var listButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("选择", for: .normal)
+        button.addTarget(self, action: #selector(selectClicked), for: .touchUpInside)
+        return button
+    }()
+    lazy var currentVPNView: CurrentVPNInfoView = {
+        let view = CurrentVPNInfoView()
+        return view
+    }()
+    lazy var listStack: UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [currentVPNView,connectButton, listButton])
+        stackView.axis = .vertical
+        stackView.spacing = 10
+        stackView.distribution = .fillProportionally
+        return stackView
+    }()
     //MARK: - life circle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,11 +64,18 @@ class ViewController: UIViewController {
         Task {
             await vpn.prepare()
         }
-        view.addSubview(connectButton)
-        connectButton.snp.makeConstraints { make in
+        view.addSubview(listStack)
+        listStack.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
+        VPNManager.shared.dataSubject.subscribe { model in
+            self.updateCurrentVPNInfo()
+        }
+        self.updateCurrentVPNInfo()
         // Do any additional setup after loading the view.
+    }
+    func updateCurrentVPNInfo() {
+        self.currentVPNView.configVPNContent()
     }
     //MARK: - event
     @objc func connectionClicked() {
@@ -63,10 +87,16 @@ class ViewController: UIViewController {
                 disconnect()
         }
     }
+    @objc func selectClicked() {
+        let vc = VPNListViewController()
+        self.present(vc, animated: true)
+    }
     //MARK: - connect/disconnect
     func connect() {
         let credentials = OpenVPN.Credentials(userName, password)
-        if let path = Bundle.main.path(forResource: "Canada2_udp", ofType: "ovpn") {
+        
+        if let currenVpn = VPNManager.shared.currentVPNFile, let base = currenVpn.basePath, let file = currenVpn.fileName {
+            let path = Bundle.main.bundlePath + "/\(base)/\(file)"
             let url  = URL(fileURLWithPath: path)
             let result = try? OpenVPN.ConfigurationParser.parsed(fromURL: url)
             if let config = result?.configuration {

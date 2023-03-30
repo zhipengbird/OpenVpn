@@ -14,6 +14,31 @@ PODS:
   - RealReachability/Ping (1.4.1)
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
   - SwiftyJSON (5.0.1)
   - ZLCollectionViewFlowLayout (1.4.8)
 
@@ -25,6 +50,7 @@ DEPENDENCIES:
   - RealReachability
   - RxSwift
   - SnapKit
+  - SwifterSwift
   - SwiftyJSON
   - ZLCollectionViewFlowLayout
 
@@ -38,6 +64,7 @@ SPEC REPOS:
     - RealReachability
     - RxSwift
     - SnapKit
+    - SwifterSwift
     - SwiftyJSON
     - ZLCollectionViewFlowLayout
 
@@ -50,9 +77,10 @@ SPEC CHECKSUMS:
   RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   ZLCollectionViewFlowLayout: 6cd506c05d77cb2ac0772f68155e377d50d39f8a
 
-PODFILE CHECKSUM: 13cceecef7d5a26456122cf83d7458ab7ca115d2
+PODFILE CHECKSUM: bfc92c3734480f7e3f40367b63ded449f4c8997e
 
 COCOAPODS: 1.11.3

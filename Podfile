@@ -13,6 +13,8 @@ target 'SupperVPN' do
   pod 'Moya'
   pod 'RealReachability', :modular_headers => true
   pod 'SwiftyJSON'
+  pod 'SwifterSwift', :modular_headers => true
+
   # Pods for SupperVPN
 
   target 'SupperVPNTests' do

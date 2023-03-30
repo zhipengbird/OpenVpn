@@ -19,6 +19,6 @@ class JXBaseListViewModel: NSObject {
     var groupHeaderList: [JXFeedContentModelProtocol] = []
     var pageIndex: Int = 1
     var pageSize = 20
-    var hasMore: Bool = true
+    var hasMore: Bool = false
     var isRequesting = false
 }

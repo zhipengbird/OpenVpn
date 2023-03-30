@@ -12,29 +12,6 @@
 		0A169DB829D2C0C100D42192 /* TunnelKitOpenVPN in Frameworks */ = {isa = PBXBuildFile; productRef = 0A169DB729D2C0C100D42192 /* TunnelKitOpenVPN */; };
 		0A169DBA29D2C0C100D42192 /* TunnelKitOpenVPNAppExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 0A169DB929D2C0C100D42192 /* TunnelKitOpenVPNAppExtension */; };
 		0A169DBE29D2C58D00D42192 /* TunnelKitOpenVPNAppExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 0A169DBD29D2C58D00D42192 /* TunnelKitOpenVPNAppExtension */; };
-		0A169DDB29D2D0CF00D42192 /* UK_Man_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC429D2D0CC00D42192 /* UK_Man_udp.ovpn */; };
-		0A169DDC29D2D0CF00D42192 /* UK_Lon_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC529D2D0CC00D42192 /* UK_Lon_udp.ovpn */; };
-		0A169DDD29D2D0CF00D42192 /* Canada_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC629D2D0CC00D42192 /* Canada_udp.ovpn */; };
-		0A169DDE29D2D0CF00D42192 /* HK2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC729D2D0CC00D42192 /* HK2_udp.ovpn */; };
-		0A169DDF29D2D0CF00D42192 /* US_Nyc2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC829D2D0CD00D42192 /* US_Nyc2_udp.ovpn */; };
-		0A169DE029D2D0CF00D42192 /* Japan2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DC929D2D0CD00D42192 /* Japan2_udp.ovpn */; };
-		0A169DE129D2D0CF00D42192 /* Germany_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCA29D2D0CD00D42192 /* Germany_udp.ovpn */; };
-		0A169DE229D2D0CF00D42192 /* Thailand_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCB29D2D0CD00D42192 /* Thailand_udp.ovpn */; };
-		0A169DE329D2D0CF00D42192 /* UK_Lon2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCC29D2D0CD00D42192 /* UK_Lon2_udp.ovpn */; };
-		0A169DE429D2D0CF00D42192 /* Japan_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCD29D2D0CD00D42192 /* Japan_udp.ovpn */; };
-		0A169DE529D2D0CF00D42192 /* Italy_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCE29D2D0CD00D42192 /* Italy_udp.ovpn */; };
-		0A169DE629D2D0CF00D42192 /* Netherlands2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DCF29D2D0CE00D42192 /* Netherlands2_udp.ovpn */; };
-		0A169DE729D2D0CF00D42192 /* Netherlands_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD029D2D0CE00D42192 /* Netherlands_udp.ovpn */; };
-		0A169DE829D2D0CF00D42192 /* Canada2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD129D2D0CE00D42192 /* Canada2_udp.ovpn */; };
-		0A169DE929D2D0CF00D42192 /* US_Dal2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD229D2D0CE00D42192 /* US_Dal2_udp.ovpn */; };
-		0A169DEA29D2D0CF00D42192 /* US_Nyc_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD329D2D0CE00D42192 /* US_Nyc_udp.ovpn */; };
-		0A169DEB29D2D0CF00D42192 /* US_Atl_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD429D2D0CE00D42192 /* US_Atl_udp.ovpn */; };
-		0A169DEC29D2D0CF00D42192 /* Korea_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD529D2D0CE00D42192 /* Korea_udp.ovpn */; };
-		0A169DED29D2D0CF00D42192 /* UK_Man2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD629D2D0CF00D42192 /* UK_Man2_udp.ovpn */; };
-		0A169DEE29D2D0CF00D42192 /* US_Dal_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD729D2D0CF00D42192 /* US_Dal_udp.ovpn */; };
-		0A169DEF29D2D0CF00D42192 /* Germany2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD829D2D0CF00D42192 /* Germany2_udp.ovpn */; };
-		0A169DF029D2D0CF00D42192 /* HK1_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DD929D2D0CF00D42192 /* HK1_udp.ovpn */; };
-		0A169DF129D2D0CF00D42192 /* Thailand2_udp.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 0A169DDA29D2D0CF00D42192 /* Thailand2_udp.ovpn */; };
 		0A169DF329D2D2DC00D42192 /* VPNListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169DF229D2D2DC00D42192 /* VPNListViewController.swift */; };
 		0A169DFC29D2D38200D42192 /* JXFeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169DF429D2D38100D42192 /* JXFeedListViewModel.swift */; };
 		0A169DFD29D2D38200D42192 /* JXBaseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169DF529D2D38100D42192 /* JXBaseListViewModel.swift */; };
@@ -45,6 +22,14 @@
 		0A169E0229D2D38200D42192 /* JXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169DFA29D2D38200D42192 /* JXViewController.swift */; };
 		0A169E0329D2D38200D42192 /* JXTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169DFB29D2D38200D42192 /* JXTableListViewController.swift */; };
 		0A169E0629D2DAA700D42192 /* VPNAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A169E0529D2DAA700D42192 /* VPNAPIManager.swift */; };
+		0A7F13F729D2E91D00900F06 /* VPNListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13F629D2E91D00900F06 /* VPNListViewModel.swift */; };
+		0A7F13F929D3CC5500900F06 /* VPNSource in Resources */ = {isa = PBXBuildFile; fileRef = 0A7F13F829D3CC5500900F06 /* VPNSource */; };
+		0A7F13FB29D3CE9100900F06 /* VPNFileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13FA29D3CE9100900F06 /* VPNFileModel.swift */; };
+		0A7F13FD29D4147D00900F06 /* VpnItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13FC29D4147D00900F06 /* VpnItemCollectionViewCell.swift */; };
+		0A7F13FF29D414BA00900F06 /* vpnConentCellMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13FE29D414BA00900F06 /* vpnConentCellMapper.swift */; };
+		0A7F140129D41C4200900F06 /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F140029D41C4200900F06 /* VPNManager.swift */; };
+		0A7F140329D41CB300900F06 /* GeoLite2-Country.mmdb in Resources */ = {isa = PBXBuildFile; fileRef = 0A7F140229D41CB300900F06 /* GeoLite2-Country.mmdb */; };
+		0A7F140529D42D8500900F06 /* CurrentVPNInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F140429D42D8500900F06 /* CurrentVPNInfoView.swift */; };
 		0A856A9829D2B795003298A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A856A9729D2B795003298A6 /* AppDelegate.swift */; };
 		0A856A9A29D2B795003298A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A856A9929D2B795003298A6 /* SceneDelegate.swift */; };
 		0A856A9C29D2B795003298A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A856A9B29D2B795003298A6 /* ViewController.swift */; };
@@ -103,29 +88,6 @@
 
 /* Begin PBXFileReference section */
 		0466824752E9133E4C9EB7A7 /* Pods_SupperVPNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupperVPNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A169DC429D2D0CC00D42192 /* UK_Man_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UK_Man_udp.ovpn; sourceTree = "<group>"; };
-		0A169DC529D2D0CC00D42192 /* UK_Lon_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UK_Lon_udp.ovpn; sourceTree = "<group>"; };
-		0A169DC629D2D0CC00D42192 /* Canada_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Canada_udp.ovpn; sourceTree = "<group>"; };
-		0A169DC729D2D0CC00D42192 /* HK2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HK2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DC829D2D0CD00D42192 /* US_Nyc2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US_Nyc2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DC929D2D0CD00D42192 /* Japan2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Japan2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCA29D2D0CD00D42192 /* Germany_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Germany_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCB29D2D0CD00D42192 /* Thailand_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thailand_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCC29D2D0CD00D42192 /* UK_Lon2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UK_Lon2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCD29D2D0CD00D42192 /* Japan_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Japan_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCE29D2D0CD00D42192 /* Italy_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Italy_udp.ovpn; sourceTree = "<group>"; };
-		0A169DCF29D2D0CE00D42192 /* Netherlands2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Netherlands2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD029D2D0CE00D42192 /* Netherlands_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Netherlands_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD129D2D0CE00D42192 /* Canada2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Canada2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD229D2D0CE00D42192 /* US_Dal2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US_Dal2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD329D2D0CE00D42192 /* US_Nyc_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US_Nyc_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD429D2D0CE00D42192 /* US_Atl_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US_Atl_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD529D2D0CE00D42192 /* Korea_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Korea_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD629D2D0CF00D42192 /* UK_Man2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UK_Man2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD729D2D0CF00D42192 /* US_Dal_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = US_Dal_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD829D2D0CF00D42192 /* Germany2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Germany2_udp.ovpn; sourceTree = "<group>"; };
-		0A169DD929D2D0CF00D42192 /* HK1_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HK1_udp.ovpn; sourceTree = "<group>"; };
-		0A169DDA29D2D0CF00D42192 /* Thailand2_udp.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thailand2_udp.ovpn; sourceTree = "<group>"; };
 		0A169DF229D2D2DC00D42192 /* VPNListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNListViewController.swift; sourceTree = "<group>"; };
 		0A169DF429D2D38100D42192 /* JXFeedListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXFeedListViewModel.swift; sourceTree = "<group>"; };
 		0A169DF529D2D38100D42192 /* JXBaseListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXBaseListViewModel.swift; sourceTree = "<group>"; };
@@ -136,6 +98,14 @@
 		0A169DFA29D2D38200D42192 /* JXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXViewController.swift; sourceTree = "<group>"; };
 		0A169DFB29D2D38200D42192 /* JXTableListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTableListViewController.swift; sourceTree = "<group>"; };
 		0A169E0529D2DAA700D42192 /* VPNAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNAPIManager.swift; sourceTree = "<group>"; };
+		0A7F13F629D2E91D00900F06 /* VPNListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNListViewModel.swift; sourceTree = "<group>"; };
+		0A7F13F829D3CC5500900F06 /* VPNSource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VPNSource; sourceTree = "<group>"; };
+		0A7F13FA29D3CE9100900F06 /* VPNFileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNFileModel.swift; sourceTree = "<group>"; };
+		0A7F13FC29D4147D00900F06 /* VpnItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A7F13FE29D414BA00900F06 /* vpnConentCellMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpnConentCellMapper.swift; sourceTree = "<group>"; };
+		0A7F140029D41C4200900F06 /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
+		0A7F140229D41CB300900F06 /* GeoLite2-Country.mmdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeoLite2-Country.mmdb"; sourceTree = "<group>"; };
+		0A7F140429D42D8500900F06 /* CurrentVPNInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentVPNInfoView.swift; sourceTree = "<group>"; };
 		0A856A9429D2B795003298A6 /* SupperVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupperVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A856A9729D2B795003298A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A856A9929D2B795003298A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,36 +180,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A169DBF29D2C88C00D42192 /* VPNSource */ = {
-			isa = PBXGroup;
-			children = (
-				0A169DC629D2D0CC00D42192 /* Canada_udp.ovpn */,
-				0A169DD129D2D0CE00D42192 /* Canada2_udp.ovpn */,
-				0A169DCA29D2D0CD00D42192 /* Germany_udp.ovpn */,
-				0A169DD829D2D0CF00D42192 /* Germany2_udp.ovpn */,
-				0A169DD929D2D0CF00D42192 /* HK1_udp.ovpn */,
-				0A169DC729D2D0CC00D42192 /* HK2_udp.ovpn */,
-				0A169DCE29D2D0CD00D42192 /* Italy_udp.ovpn */,
-				0A169DCD29D2D0CD00D42192 /* Japan_udp.ovpn */,
-				0A169DC929D2D0CD00D42192 /* Japan2_udp.ovpn */,
-				0A169DD529D2D0CE00D42192 /* Korea_udp.ovpn */,
-				0A169DD029D2D0CE00D42192 /* Netherlands_udp.ovpn */,
-				0A169DCF29D2D0CE00D42192 /* Netherlands2_udp.ovpn */,
-				0A169DCB29D2D0CD00D42192 /* Thailand_udp.ovpn */,
-				0A169DDA29D2D0CF00D42192 /* Thailand2_udp.ovpn */,
-				0A169DC529D2D0CC00D42192 /* UK_Lon_udp.ovpn */,
-				0A169DCC29D2D0CD00D42192 /* UK_Lon2_udp.ovpn */,
-				0A169DC429D2D0CC00D42192 /* UK_Man_udp.ovpn */,
-				0A169DD629D2D0CF00D42192 /* UK_Man2_udp.ovpn */,
-				0A169DD429D2D0CE00D42192 /* US_Atl_udp.ovpn */,
-				0A169DD729D2D0CF00D42192 /* US_Dal_udp.ovpn */,
-				0A169DD229D2D0CE00D42192 /* US_Dal2_udp.ovpn */,
-				0A169DD329D2D0CE00D42192 /* US_Nyc_udp.ovpn */,
-				0A169DC829D2D0CD00D42192 /* US_Nyc2_udp.ovpn */,
-			);
-			path = VPNSource;
-			sourceTree = "<group>";
-		};
 		0A169E0429D2DA7700D42192 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +194,20 @@
 				0A169E0529D2DAA700D42192 /* VPNAPIManager.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		0A7F13F529D2E8CC00900F06 /* VPNList */ = {
+			isa = PBXGroup;
+			children = (
+				0A169DF229D2D2DC00D42192 /* VPNListViewController.swift */,
+				0A7F13F629D2E91D00900F06 /* VPNListViewModel.swift */,
+				0A7F13FA29D3CE9100900F06 /* VPNFileModel.swift */,
+				0A7F13FC29D4147D00900F06 /* VpnItemCollectionViewCell.swift */,
+				0A7F13FE29D414BA00900F06 /* vpnConentCellMapper.swift */,
+				0A7F140029D41C4200900F06 /* VPNManager.swift */,
+				0A7F140429D42D8500900F06 /* CurrentVPNInfoView.swift */,
+			);
+			path = VPNList;
 			sourceTree = "<group>";
 		};
 		0A856A8B29D2B795003298A6 = {
@@ -283,12 +237,13 @@
 		0A856A9629D2B795003298A6 /* SupperVPN */ = {
 			isa = PBXGroup;
 			children = (
-				0A169DBF29D2C88C00D42192 /* VPNSource */,
+				0A7F13F829D3CC5500900F06 /* VPNSource */,
 				0A856AC729D2B7CA003298A6 /* SupperVPN.entitlements */,
 				0A856A9729D2B795003298A6 /* AppDelegate.swift */,
 				0A856A9929D2B795003298A6 /* SceneDelegate.swift */,
 				0A856A9B29D2B795003298A6 /* ViewController.swift */,
-				0A169DF229D2D2DC00D42192 /* VPNListViewController.swift */,
+				0A7F140229D41CB300900F06 /* GeoLite2-Country.mmdb */,
+				0A7F13F529D2E8CC00900F06 /* VPNList */,
 				0A169E0429D2DA7700D42192 /* Base */,
 				0A856A9D29D2B795003298A6 /* Main.storyboard */,
 				0A856AA029D2B796003298A6 /* Assets.xcassets */,
@@ -497,32 +452,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A169DE229D2D0CF00D42192 /* Thailand_udp.ovpn in Resources */,
-				0A169DEE29D2D0CF00D42192 /* US_Dal_udp.ovpn in Resources */,
 				0A856AA429D2B796003298A6 /* LaunchScreen.storyboard in Resources */,
 				0A856AA129D2B796003298A6 /* Assets.xcassets in Resources */,
-				0A169DEC29D2D0CF00D42192 /* Korea_udp.ovpn in Resources */,
-				0A169DDD29D2D0CF00D42192 /* Canada_udp.ovpn in Resources */,
+				0A7F140329D41CB300900F06 /* GeoLite2-Country.mmdb in Resources */,
+				0A7F13F929D3CC5500900F06 /* VPNSource in Resources */,
 				0A856A9F29D2B795003298A6 /* Main.storyboard in Resources */,
-				0A169DE829D2D0CF00D42192 /* Canada2_udp.ovpn in Resources */,
-				0A169DE729D2D0CF00D42192 /* Netherlands_udp.ovpn in Resources */,
-				0A169DE029D2D0CF00D42192 /* Japan2_udp.ovpn in Resources */,
-				0A169DE529D2D0CF00D42192 /* Italy_udp.ovpn in Resources */,
-				0A169DDF29D2D0CF00D42192 /* US_Nyc2_udp.ovpn in Resources */,
-				0A169DEA29D2D0CF00D42192 /* US_Nyc_udp.ovpn in Resources */,
-				0A169DDC29D2D0CF00D42192 /* UK_Lon_udp.ovpn in Resources */,
-				0A169DF029D2D0CF00D42192 /* HK1_udp.ovpn in Resources */,
-				0A169DE929D2D0CF00D42192 /* US_Dal2_udp.ovpn in Resources */,
-				0A169DDE29D2D0CF00D42192 /* HK2_udp.ovpn in Resources */,
-				0A169DE429D2D0CF00D42192 /* Japan_udp.ovpn in Resources */,
-				0A169DED29D2D0CF00D42192 /* UK_Man2_udp.ovpn in Resources */,
-				0A169DE129D2D0CF00D42192 /* Germany_udp.ovpn in Resources */,
-				0A169DEB29D2D0CF00D42192 /* US_Atl_udp.ovpn in Resources */,
-				0A169DE629D2D0CF00D42192 /* Netherlands2_udp.ovpn in Resources */,
-				0A169DDB29D2D0CF00D42192 /* UK_Man_udp.ovpn in Resources */,
-				0A169DE329D2D0CF00D42192 /* UK_Lon2_udp.ovpn in Resources */,
-				0A169DF129D2D0CF00D42192 /* Thailand2_udp.ovpn in Resources */,
-				0A169DEF29D2D0CF00D42192 /* Germany2_udp.ovpn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,15 +617,21 @@
 				0A169DFF29D2D38200D42192 /* JXFeedModelLayerMapper.swift in Sources */,
 				0A169E0129D2D38200D42192 /* JXCollectListViewController.swift in Sources */,
 				0A856A9C29D2B795003298A6 /* ViewController.swift in Sources */,
+				0A7F13FD29D4147D00900F06 /* VpnItemCollectionViewCell.swift in Sources */,
 				0A169DFE29D2D38200D42192 /* JXFeedContentCellMapper.swift in Sources */,
 				0A169E0029D2D38200D42192 /* JXFeedTemplateProtocol.swift in Sources */,
 				0A169DFD29D2D38200D42192 /* JXBaseListViewModel.swift in Sources */,
+				0A7F13F729D2E91D00900F06 /* VPNListViewModel.swift in Sources */,
 				0A169DF329D2D2DC00D42192 /* VPNListViewController.swift in Sources */,
+				0A7F140129D41C4200900F06 /* VPNManager.swift in Sources */,
+				0A7F140529D42D8500900F06 /* CurrentVPNInfoView.swift in Sources */,
 				0A856A9829D2B795003298A6 /* AppDelegate.swift in Sources */,
+				0A7F13FF29D414BA00900F06 /* vpnConentCellMapper.swift in Sources */,
 				0A856A9A29D2B795003298A6 /* SceneDelegate.swift in Sources */,
 				0A169DFC29D2D38200D42192 /* JXFeedListViewModel.swift in Sources */,
 				0A169E0629D2DAA700D42192 /* VPNAPIManager.swift in Sources */,
 				0A169E0329D2D38200D42192 /* JXTableListViewController.swift in Sources */,
+				0A7F13FB29D3CE9100900F06 /* VPNFileModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
