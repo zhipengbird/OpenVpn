@@ -25,9 +25,7 @@ class VPNManager {
     var currentVPNFile: VPNFileModel? {
         didSet {
             self.dataSubject.onNext(currentVPNFile)
-            if oldValue != nil {
-                saveVPN()
-            }
+            saveVPN()
         }
     }
     init() {

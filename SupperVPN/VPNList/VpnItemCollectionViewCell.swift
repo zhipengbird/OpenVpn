@@ -59,6 +59,12 @@ class VpnItemCollectionViewCell: UICollectionViewCell, JXFeedContentCellTempateP
         super.init(frame: frame)
         configSubviews()
         configSubviewsLayout()
+        self.contentView.backgroundColor = .white
+        self.contentView.layer.cornerRadius = 10
+        self.contentView.layer.shadowColor = UIColor.black.withAlphaComponent(0.4).cgColor
+        self.contentView.layer.shadowRadius = 10
+        self.contentView.layer.shadowOffset = CGSize(width: 3, height: 3)
+        self.contentView.layer.shadowOpacity = 1
     }
     
     required init?(coder: NSCoder) {
@@ -70,7 +76,7 @@ class VpnItemCollectionViewCell: UICollectionViewCell, JXFeedContentCellTempateP
     }
     func configSubviewsLayout() {
         listStack.snp.makeConstraints { make in
-            make.leading.equalToSuperview()
+            make.leading.equalToSuperview().offset(10)
             make.centerY.equalToSuperview()
             make.trailing.lessThanOrEqualToSuperview()
         }
@@ -100,7 +106,7 @@ class VpnItemCollectionViewCell: UICollectionViewCell, JXFeedContentCellTempateP
                 if let countryCode = country?.isoCode.uppercased() ?? country?.continent.code, let flag = Flag(countryCode: countryCode) {
                     flagImageView.image = flag.image(style: .roundedRect)
                 } else {
-                    flagImageView.image = UIImage()
+                    flagImageView.image = UIImage(systemName: "paperplane.circle.fill")
                 }
             }
         } catch let error {

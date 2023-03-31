@@ -7,6 +7,7 @@
 
 import UIKit
 import FlagKit
+import SwifterSwift
 class CurrentVPNInfoView: UIView {
     //MARK: - properties
     lazy var countryFlagView: UIImageView = {
@@ -38,6 +39,12 @@ class CurrentVPNInfoView: UIView {
         super.init(frame: frame)
         configSubViews()
         configSubViewsLayout()
+        self.backgroundColor = .white
+        self.cornerRadius = 10
+        self.setContentHuggingPriority(.required, for: .vertical)
+        self.setContentCompressionResistancePriority(.required, for: .vertical)
+        self.setContentHuggingPriority(.required, for: .horizontal)
+        self.setContentCompressionResistancePriority(.required, for: .horizontal)
     }
     
     required init?(coder: NSCoder) {
@@ -56,7 +63,7 @@ class CurrentVPNInfoView: UIView {
     
     func configSubViewsLayout(){
         infoStackView.snp.makeConstraints { make in
-            make.edges.equalTo(UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5))
+            make.edges.equalTo(UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
         }
     }
     //MARK: - api
@@ -68,7 +75,7 @@ class CurrentVPNInfoView: UIView {
                 let flag = Flag(countryCode: countryCode) {
                 countryFlagView.image = flag.image(style: .roundedRect)
             } else {
-                countryFlagView.image = UIImage()
+                countryFlagView.image = UIImage(systemName: "paperplane.circle.fill")
             }
         }
     }

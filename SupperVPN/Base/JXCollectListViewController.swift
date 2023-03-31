@@ -40,9 +40,8 @@ class JXCollectListViewController: JXViewController {
         refresh()
     }
     func flowlayout() -> UICollectionViewLayout {
-        let layout = ZLCollectionViewVerticalLayout()
+        let layout = UICollectionViewFlowLayout()
         layout.minimumLineSpacing = 10
-        layout.delegate = self
         return layout
     }
     func addListener() {
@@ -198,6 +197,3 @@ extension JXCollectListViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
-extension JXCollectListViewController: ZLCollectionViewBaseFlowLayoutDelegate {
-    
-}

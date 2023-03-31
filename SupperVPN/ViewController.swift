@@ -10,6 +10,7 @@ import TunnelKitCore
 import TunnelKitManager
 import TunnelKitOpenVPN
 import SnapKit
+import RxSwift
 private let appGroup = "group.com.VPN.yph"
 
 private let tunnelIdentifier = "com.yuanph.SupperVPN.SupperVPNTunnel"
@@ -26,6 +27,13 @@ class ViewController: UIViewController {
         let button = UIButton(type: .system)
         button.setTitle("Connect", for: .normal)
         button.addTarget(self, action: #selector(connectionClicked), for: .touchUpInside)
+        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
+        button.layer.cornerRadius = 75
+        button.backgroundColor = .white
+        button.layer.shadowColor = UIColor.black.withAlphaComponent(0.5).cgColor
+        button.layer.shadowOffset = CGSize(width: 3, height: 3)
+        button.layer.shadowOpacity = 1
+        button.layer.shadowRadius = 10
         return button
     }()
     lazy var listButton: UIButton = {
@@ -39,15 +47,17 @@ class ViewController: UIViewController {
         return view
     }()
     lazy var listStack: UIStackView = {
-        let stackView = UIStackView(arrangedSubviews: [currentVPNView,connectButton, listButton])
+        let stackView = UIStackView(arrangedSubviews: [connectButton])
         stackView.axis = .vertical
         stackView.spacing = 10
         stackView.distribution = .fillProportionally
+        stackView.alignment = .center
         return stackView
     }()
     //MARK: - life circle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.layer.contents = UIImage(named: "bg")?.cgImage
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(VPNStatusDidChange(notification:)),
@@ -64,7 +74,15 @@ class ViewController: UIViewController {
         Task {
             await vpn.prepare()
         }
+        view.addSubview(currentVPNView)
         view.addSubview(listStack)
+        connectButton.snp.makeConstraints { make in
+            make.size.equalTo(CGSize(width: 150, height: 150))
+        }
+        currentVPNView.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.bottom.equalTo(listStack.snp.top).offset(-10)
+        }
         listStack.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
@@ -72,6 +90,8 @@ class ViewController: UIViewController {
             self.updateCurrentVPNInfo()
         }
         self.updateCurrentVPNInfo()
+        let tap = UITapGestureRecognizer(target: self, action: #selector(selectClicked))
+        currentVPNView.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
     }
     func updateCurrentVPNInfo() {
